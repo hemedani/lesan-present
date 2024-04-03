@@ -197,11 +197,16 @@
 }
 
 
-/* .step {
-  filter: blur(25px);
-  transition: filter 5000ms linear;
+.ih100 {
+  height: 100%;
 }
 
-.active {
+
+.step {
+  filter: blur(5px);
+  transition: filter 1s;
+}
+
+.step.active {
   filter: blur(0px);
-  transition: filter 5000ms linear; */
+}
